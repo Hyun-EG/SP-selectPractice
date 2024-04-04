@@ -2,6 +2,10 @@
   background-color: blue;
 }
 
+p {
+  font-size: 4rem;
+}
+
 main .form {
   height: 5000px;
 }
