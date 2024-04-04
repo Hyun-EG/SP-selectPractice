@@ -1,0 +1,76 @@
+.selected {
+  background-color: blue;
+}
+
+main .form {
+  height: 5000px;
+}
+
+main .form .select {
+  margin-top: 1000px;
+  width: 500px;
+  height: 500px;
+}
+
+main .form .select .input {
+  width: 500px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  font-size: 2rem;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .form .select .input .optionValue {
+  height: 50px;
+  border-width: 0;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .form .select .input .optionValue:focus {
+  outline: none;
+}
+
+main .form .select .input .arrow {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main .form .select .options {
+  border-top: 1px solid white;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  width: 500px;
+  cursor: pointer;
+  display: none;
+}
+
+main .form .select .options .option {
+  align-content: center;
+  text-align: center;
+  border-bottom: 1px solid black;
+  height: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .form .select .options .option:hover {
+  background-color: rgb(110, 111, 112);
+}
+
+.arrow {
+  transition: transform 0.3s;
+}
+
+.arrow.rotated {
+  transform: rotate(180deg);
+}
